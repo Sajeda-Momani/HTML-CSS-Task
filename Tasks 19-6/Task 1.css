@@ -1,0 +1,17 @@
+.one {
+    color: rgb(248, 192, 11);
+    font-family: 'Times New Roman', Times, serif;
+    font: size medium;
+
+}
+.two {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font: size medium;
+}
+.three {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font: size medium;
+    background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=175&fit=crop&h=275&dpr=1);
+}

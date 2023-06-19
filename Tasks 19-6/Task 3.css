@@ -1,0 +1,13 @@
+*{
+    font-weight: bolder;
+    font-size:15px;
+}
+.one {
+ font-weight: bold;   
+}
+.two {
+    color: blue;
+}
+.three {
+    color: rgb(4, 155, 4);
+}
