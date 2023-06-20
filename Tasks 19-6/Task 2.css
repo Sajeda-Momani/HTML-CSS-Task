@@ -11,9 +11,9 @@ font-family:'Times New Roman', Times, serif;}
 .three {
     color: rgb(0, 0, 0);
     text-align: left;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight:inherit;
-    
+    font-family:Arial;  
+    font-weight:lighter;
+
 }
 .four {
     color: rgb(133, 129, 129);
