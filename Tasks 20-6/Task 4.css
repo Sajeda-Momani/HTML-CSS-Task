@@ -1,0 +1,8 @@
+div{
+    height: 100px;
+    width: 100px;}
+section {
+    border: 1px black dotted; display:inline-block;
+}
+.absolute {
+    position: absolute; left: 20px; bottom: 320px;}

@@ -1,0 +1,21 @@
+
+.div-one {
+    border: black solid thin;
+    width: 400px;
+    height: 700px;
+}
+image {
+    width: 400px;
+}
+.div-two {
+    border: black solid thin;
+    width: 400px;
+
+}
+.div-three {
+    border: black solid thin;
+    width: 400px;
+}
+* {
+    font-size: larger;
+}
