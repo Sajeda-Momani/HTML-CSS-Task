@@ -6,16 +6,18 @@
     border: black;
     border-style: solid;
     border-width: thin;  
-    padding: 5px; 
+    padding: 20px; 
     margin: 5px;
+    width: 900px;
 }
 .two {
     background-color:white ;
     border: black;
     border-style:dashed;
     border-width: thin;
-    padding: 5px; 
+    padding: 20px; 
     margin: 5px;
+    width: 900px;
 }
 .three{
     color:rgba(148,40,130,255);
@@ -23,8 +25,10 @@
     border: black;
     border-style: solid;
     border-width: thin;
-    padding: 5px; 
+    padding: 20px; 
     margin: 5px;
+    width: 900px;
+
 }
 .two-two{
     border-width:medium;
