@@ -1,10 +1,15 @@
 p{
-    padding-top: 600px;
-    margin: 300px;
+    padding-top: 500px;
     background-color: orange;
     width: 600px;
     text-align: center;
     font-size: 100px;
     color: white;
     font-weight: bolder;
+    vertical-align:middle;
+    margin-left: 100px;
+}
+div{
+    border: 5px black solid;
+    width: 800px;
 }
