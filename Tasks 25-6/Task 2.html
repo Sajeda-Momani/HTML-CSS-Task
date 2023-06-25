@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <style>
+    .moving{
+        background-color: green;
+        height: 100px;
+        width: 100px;
+        border-radius: 10px;            
+        position: relative;
+        animation-name: moving;
+        animation-iteration-count: infinite;
+        animation-duration: 10s;
+    }
+        @keyframes moving {
+            
+            14.2% {background-color: green; left: 100px; top: 0px;}
+            28.5% {background-image: linear-gradient(green,greenyellow) ; left: 400px; top: 0px;}
+            42.6% {background-image: linear-gradient(rgb(0, 36, 128),rgb(47, 252, 255)); left: 400px; top: 400px;}
+            56.8% {background-image: linear-gradient(rgb(246, 231, 21),rgb(47, 61, 255)); left:200px; top: 400px;}
+            71% {background-image:linear-gradient(rgb(246, 231, 21),rgb(151, 158, 13)); left: 10px; top: 400px; }
+            85.2% {background-image:linear-gradient(rgb(129, 2, 2),rgb(133, 77, 0)); left: 0px; top: 100px; }
+            100% {background-image:linear-gradient(rgb(129, 2, 2),rgb(2, 149, 2)); left: 0px; top: 0px; }
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="moving"></div>
+</body>
+</html>
