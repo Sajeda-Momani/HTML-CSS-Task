@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Task 2</title>
+    <style>
+.All{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto auto auto auto auto;
+    row-gap: 5px;
+    column-gap: 5px;
+}
+.Header{
+grid-column: 1/6;
+background-color: aqua;
+padding: 50px;
+
+}
+.Orange{
+grid-column: 1/2;
+background-color: orange;
+padding-bottom: 400px;
+}
+.Mid{
+grid-column: 2/5;
+display: grid;
+grid-template-columns: auto;
+grid-template-rows: auto auto auto auto auto;
+row-gap: 5px;
+
+}
+.Mid-one{
+grid-row: 1/2;
+background-color: rgb(218, 212, 212);
+padding: 25px; 
+}
+.Mid-two{
+grid-row: 2/3;
+background-color: rgb(218, 212, 212);
+padding: 25px; 
+
+}
+.Mid-three{
+grid-row: 3/4;
+background-color: rgb(218, 212, 212);
+padding: 25px; 
+
+}
+.Mid-four{
+grid-row: 4/5;
+background-color: rgb(218, 212, 212);
+padding: 25px; 
+
+}
+.Mid-five{
+grid-row: 5/6;
+background-color: rgb(218, 212, 212);
+padding: 25px; 
+
+}
+
+.Orange1{
+grid-column: 2/5;
+background-color: rgb(250, 249, 249);
+padding: 10px; 
+margin: 5px;
+}
+.Orange2{
+grid-column: 2/5;
+background-color: rgb(250, 249, 249);
+padding: 10px; 
+margin: 5px;
+
+}
+.Orange3{
+grid-column: 2/5;
+background-color: rgb(250, 249, 249);
+padding: 10px; 
+margin: 5px;
+
+}
+.Orange4{
+grid-column: 2/5;
+background-color: rgb(250, 249, 249);
+padding: 10px; 
+margin: 5px;
+
+}
+.Aside{
+grid-column: 5/6;
+background-color: green;
+padding: 100px; 
+
+}
+@media screen and (min-width: 481px) and (max-width:768px) {
+
+.All{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    row-gap: 5px;
+    column-gap: 5px;
+}
+.Header{
+grid-column: 1/6;
+background-color: aqua;
+padding: 50px;
+}
+.Orange{
+grid-column: 1/6;
+background-color: orange;
+padding: 0px;
+display: grid;
+grid-template-columns: auto auto auto auto;
+grid-template-rows: auto;
+row-gap: 5px;
+column-gap: 5px;
+}
+.Orange1{
+grid-column: 1/2;
+background-color: rgb(250, 249, 249);
+padding: 50px; 
+}
+.Orange2{
+grid-column: 2/3;
+background-color: rgb(250, 249, 249);
+padding: 50px; 
+}
+.Orange3{
+grid-column: 3/4;
+background-color: rgb(250, 249, 249);
+padding: 50px; 
+}
+.Orange4{
+grid-column: 4/5;
+background-color: rgb(250, 249, 249);
+padding: 50px; 
+}
+.Mid{
+grid-column: 1/6;
+background-color: 333rgb(255, 255, 255);
+}
+.Mid-one{
+grid-column: 1/6;
+background-color: rgb(218, 209, 209);
+padding: 50px;
+}
+.Mid-two{
+grid-column: 1/6;
+background-color: rgb(218, 209, 209);
+padding: 50px;
+}
+.Mid-three{
+grid-column: 1/6;
+background-color: rgb(218, 209, 209);
+padding: 50px;
+}
+.Mid-four{
+grid-column: 1/6;
+background-color: rgb(218, 209, 209);
+padding: 50px;
+}
+.Mid-five{
+grid-column: 1/6;
+background-color: rgb(218, 209, 209);
+padding: 50px;
+}
+.Aside{
+grid-column: 1/6;
+background-color: green;
+padding: 50px;
+}
+}
+@media screen and (max-width:480px) {
+.Orange{
+    padding: 0px;
+    grid-column: 1/6;
+    width: 100%;
+}
+.Mid{
+    padding: 0px;
+    grid-column: 1/6;
+    width: 100%;
+}
+.Aside{
+    padding: 20px;
+    grid-column: 1/6;
+}
+} 
+
+    </style>
+</head>
+<body>
+    <div class="All">
+        <div class="Header"></div>
+        <div class="Orange">
+            <div class="Orange1"></div>
+            <div class="Orange2"></div>
+            <div class="Orange3"></div>
+            <div class="Orange4"></div>
+        </div>
+        <div class="Mid">
+            <div class="Mid-one"></div>
+            <div class="Mid-two"></div>
+            <div class="Mid-three"></div>
+            <div class="Mid-four"></div>
+            <div class="Mid-five"></div>
+        </div>
+        <div class="Aside"></div>
+
+    </div>
+</body>
+</html>
